@@ -4,3 +4,63 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+.header {
+    background-color: #f7bf25;
+    margin-bottom: 10px;
+}
+
+.container_title {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 10px;
+}
+
+.title_site {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title_site,
+.container_nav {
+    width: 50%;
+}
+
+.nav_menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav_menu__item>a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav_menu__item>a:hover {
+    font-size: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.container_baner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.baner_title {
+    position: absolute;
+    color: blue;
+}
