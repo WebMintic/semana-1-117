@@ -172,6 +172,37 @@ body {
     text-align: justify;
 }
 
+.container_news {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row_new {
+    /* display: block; */
+    margin-bottom: 10px;
+}
+
+.container_new {
+    display: flex;
+    align-items: center;
+    background-color: #7dada8;
+    height: 350px;
+}
+
+.new_img {
+    padding: 8px;
+}
+
+.margin_content {
+    margin: 6px;
+}
+
+.row_card {
+    width: 50%;
+}
+
 .header {
     background-color: #f7bf25;
     margin-bottom: 10px;
