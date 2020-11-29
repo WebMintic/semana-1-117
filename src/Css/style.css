@@ -4,3 +4,41 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+.container_news {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.row_new {
+    /* display: block; */
+    margin-bottom: 10px;
+}
+
+.container_new {
+    display: flex;
+    align-items: center;
+    background-color: #7dada8;
+    height: 350px;
+}
+
+.new_img {
+    padding: 8px;
+}
+
+.margin_content {
+    margin: 6px;
+}
+
+.row_card {
+    width: 50%;
+}
